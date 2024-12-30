@@ -1,0 +1,44 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+main{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: bisque;
+}
+.flag{
+    width: 60%;
+    height: 95%;
+}
+.flag .red{
+    width: 100%;
+    height: 300px;
+    background-color: red;
+}
+.flag .white{
+    width: 100%;
+    height: 300px;
+    background-color: white;
+    position: relative;
+}
+.flag .white .eagle{
+    position: absolute;
+    width: 10%;
+    height: 10%;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.flag .white .eagle img{
+    width: 100%;
+}
+.flag .black{
+    width: 100%;
+    height: 300px;
+    background-color: black;
+}
